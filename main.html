@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CyberSociety.com</title>
+        <link rel="stylesheet" href="text.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="rectangle.css">
+        <link rel="stylesheet" href="body.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/b819e4cf0d.js" crossorigin="anonymous"></script>
+        <script src="transitions.js"></script>
+    </head>
+    <body>
+        <div class="rectangle">
+            <div class="img">
+                <!-- <div class="overlay"></div> -->
+                <img class="background" src="bg.jpg">
+                <div class="dock">
+                    <div>
+                        <p class="bold" onclick="navigateTo('seminar', 'bg.jpg')">Seminar</p>
+                        <p class="notbold">Ethical Hacking</p>
+                    </div>
+                    <div>
+                        <p class="bold" onclick="navigateTo('webinar', 'home-bg.jpg')">Webinar</p>
+                        <p class="notbold">Industry experts</p>
+                    </div>
+                    <div>
+                        <p class="bold" onclick="navigateTo('workshop', 'resources-bg.jpg')">Workshop</p>
+                        <p class="notbold">Hands-on Hacking</p>
+                    </div>
+                    <div>
+                        <p class="bold" onclick="navigateTo('ctf', 'about-bg.jpg')">CTF</p>
+                        <p class="notbold">Challenge yourself</p>
+                    </div>
+                </div>
+                <div class="content-container">
+                    <div id="contact" class="page">
+                        <p class="p1"></p>
+                        <p class="p2">We're working on it!</p>
+                        <p class="p3">Stay tuned</p>
+                    </div>
+                    <div id="intro" class="page active">
+                        <p class="p1">Empower Your</p>
+                        <p class="p2">Cybersecurity Career</p>
+                        <p class="p3"></p>
+                    </div>
+                    <div id="home" class="page">
+                        <p class="p2">What do we stand for?</p>
+                        <p class="p1"></p>
+                        <p class="p3">We strive to make cybersecurity education accessible and engaging for everyone, as we believe it is crucial for creating a safer and more secure digital environment.
+                            We encourage innovation and experimentation in cybersecurity education and recognize the importance of pushing boundaries and staying up to date.
+                            We empower individuals with the tools they need to stay ahead in cybersecurity and learn alongside their peers.</p>
+                    </div>
+                    <div id="members" class="page">
+                        <div class="profile-page">
+                            <div class="profile-container">
+                                <div class="profile">
+                                    <div class="profile-pic">
+                                        <img class="pfp" src="pf1.jpg">
+                                    </div>
+                                    <div class="profile-name">
+                                        <p class="p5">Rahul Mishra</p>
+                                    </div>
+                                    <div class="socials">
+                                        <div class="social-container">
+                                            <a href="https://instagram.com">
+                                                <img class="simg" src="instagram.png">
+                                            </a>
+                                            <a href="https://github.com/rivian96">
+                                                <img class="simg" src="github.png">
+                                            </a>
+                                            <a href="https://Linkedin.com/in/rivian96">
+                                                <img class="simg" src="linkedin.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile">
+                                    <div class="profile-pic">
+                                        <img class="pfp" src="pf2.jpg">
+                                    </div>
+                                    <div class="profile-name">
+                                        <p class="p5">Tuhin Mitra</p>
+                                    </div>
+                                    <div class="socials">
+                                        <div class="social-container">
+                                            <a href="https://www.instagram.com/dark_wizard1276?utm_source=qr&igsh=MTU3czNicDhqcDI5MQ==">
+                                                <img class="simg" src="instagram.png">
+                                            </a>
+                                            <a href="https://github.com/Technochip">
+                                                <img class="simg" src="github.png">
+                                            </a>
+                                            <a href="">
+                                                <img class="simg" src="linkedin.png">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="about" class="page">
+                        <p class="p2">Who Are We?</p>
+                        <p class="p3">We are a group of students dedicated to learning and sharing
+                            knowledge in the field of cybersecurity. Our community aims
+                            to provide a platform for collaboration, hands-on practice, and
+                            discussions on various areas within cybersecurity. Whether you're
+                            a beginner or an experienced professional, our goal is to create a
+                            space where everyone can develop their skills and contribute
+                            to building a strong, supportive community.</p>
+                    </div>
+                    <div id="beginner" class="page">
+                        <p class="p1">Beginner</p>
+                        <p class="p4">1. PicoCTF: Great for students and beginners <a href="https://picoctf.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            2. TryHackMe: Interactive labs for various skill levels <a href="https://tryhackme.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            3. RootMe: Practice with real vulnerabilities <a href="https://www.root-me.org/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            4. OverTheWire: Classic wargames to build your foundational skills <a href="https://overthewire.org/wargames/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            5. Vulnhub: Download vulnerable machines for offline practice <a href="https://vulnhub.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+
+                        </p>
+                        <p class="p4">
+                            6. Hack This Site: Learn WebApp security and Exploitation <a href="https://www.hackthissite.org/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                    </div>
+                    <div id="intermediate" class="page">
+                        <p class="p1">Intermediate</p>
+                        <p class="p4">
+                            1. Hack The Box: Test your skills on active challenges <a href="https://www.hackthebox.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            2. Google CTF: Participate in Google's annual CTF <a href="https://capturetheflag.withgoogle.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            3. CMD Challenge: Test your bash and shell command skills <a href="https://cmdchallenge.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            4. PentesterLab: Learn pentesting with hands-on exercises <a href="https://pentesterlab.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                    </div>
+                    <div id="specialized" class="page">
+                        <p class="p1">Specialized</p>
+                        <p class="p4">
+                            1. Pwn College: Focus on binary exploitation and pwning <a href="https://pwn.college/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            2. PortSwigger Web Security Academy: Learn about web vulnerabilities <a href="https://portswigger.net/web-security"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            3. CryptoHack: Sharpen your cryptography skills <a href="https://cryptohack.org/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            4. Guyinatuxedo GitHub: Learn Reverse engineering skills <a href="https://github.com/guyinatuxedo"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                    </div>
+                    <div id="advance" class="page">
+                        <p class="p1">Advanced</p>
+                        <p class="p4">
+                            1. Attack-Defense: Realistic attack-defense scenarios <a href="https://attackdefense.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            2. Hacker101 CTF: CTF challenges designed by HackerOne <a href="https://ctf.hacker101.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                        <p class="p4">
+                            3. Komodo Security CTF: Application security-focused CTF <a href="http://ctf.komodosec.com/"><button class="arrow"><i class="fa-solid fa-arrow-right"></i></button></a>
+                        </p>
+                    </div>
+                    <div id="seminar" class="page">
+                        <p class="p2">
+                            Seminar
+                        </p>
+                        <p class="p4">
+                            Join our weekly seminars to explore the latest trends, threats, and solutions in cybersecurity. From ethical hacking to data privacy, our experts will delve into a wide range of topics.
+                        </p>
+                    </div>
+                    <div id="webinar" class="page">
+                        <p class="p2">
+                            Webinars
+                        </p>
+                        <p class="p4">
+                            Your Weekly Dose of Cyber Defense: Join our weekly webinars to learn from leading experts, network with peers, and strengthen your cybersecurity skills.
+                        </p>
+                    </div>
+                    <div id="workshop" class="page">
+                        <p class="p2">
+                            Workshop Series
+                        </p>
+                        <p class="p4">
+                            Hands-On Hacking and Defense: Our workshops provide practical, hands-on experience in cybersecurity tools and techniques. Learn to protect your systems and networks.
+                        </p>
+                    </div>
+                    <div id="ctf" class="page">
+                        <p class="p2">
+                            Vault & Key challenge
+                        </p>
+                        <div class="ctf-content">
+                            <div>
+                                <p class="p4">
+                                    Exciting prizes for top 3 winners
+                                </p>
+                                <p class="p4">MAR points with certificates upon participation</p>
+                                <div>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWH2qB4cJX0acNWfAiy7R6CiFR9jUvy7Q60fOi876x90U0sQ/viewform">
+                                        <button class="buttonbut">Participate</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWH2qB4cJX0acNWfAiy7R6CiFR9jUvy7Q60fOi876x90U0sQ/viewform"><img src="WhatsApp Image 2025-02-09 at 16.24.20_082a5c7b.jpg" class="challenge"></a>
+                        <div class="timer-container">
+                            <div id="timer" class="timer">
+                                <div class="time-div">
+                                    <p id="days" class="p6">0</p>
+                                    <p class="p3">Days</p>
+                                </div>
+                                <div class="time-div">
+                                    <p id="hours" class="p6">0</p>
+                                    <p class="p3">Hours</p>
+                                </div>
+                                <div class="time-div">
+                                    <p id="mins" class="p6">0</p>
+                                    <p class="p3">Mins</p>
+                                </div>
+                                <div class="time-div">
+                                    <p id="secs" class="p6">0</p>
+                                    <p class="p3">Secs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <script src="countdown.js"></script>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="buttonbut" onclick="navigateTo('beginner', 'bg.jpg')">Beginner</button>
+                    <button class="buttonbut" onclick="navigateTo('intermediate', 'home-bg.jpg')">Intermediate</button>
+                    <button class="buttonbut" onclick="navigateTo('specialized', 'resources-bg.jpg')">Specialized</button>
+                    <button class="buttonbut" onclick="navigateTo('advance', 'about-bg.jpg')">Advanced</button>
+                    <button class="arrow"><i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+                <div class="header">
+                    <div class="logo">
+                        <img class="logoimg" src="logo.png">
+                    </div>
+                    <div class="middle">
+                        <p onclick="navigateTo('intro', 'bg.jpg')">Intro</p>
+                        <p onclick="navigateTo('home', 'home-bg.jpg')">Home</p>
+                        <p onclick="navigateTo('members', 'resources-bg.jpg')">Founders</p>
+                        <p onclick="navigateTo('about', 'about-bg.jpg')">About</p>
+                    </div>
+                    <div class="right">
+                        <button class="buttonbut" onclick="navigateTo('contact', 'bg.jpg')">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
